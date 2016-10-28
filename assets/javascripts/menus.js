@@ -10,7 +10,7 @@ function enableMenus() {
 	if($('body').hasClass('no-js')){
 	$('body').removeClass('no-js');
 	};
-	
+	//wer
 	//attach a listener to each li that has a child ul, and then slide submenus down or up depending upon mouse position
 	menu.find('li').each(function() {
 		if ($(this).find('ul').length > 0 ) {
